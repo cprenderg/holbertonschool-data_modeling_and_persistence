@@ -1,0 +1,1 @@
+Select title, author from books WHERE price > 20
