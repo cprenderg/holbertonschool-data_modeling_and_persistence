@@ -1,1 +1,1 @@
-Select title, genre from books WHERE genre = "Fantasy" AND price < 10
+Select title, genre from books WHERE genre = "Fantasy" OR price < 10
