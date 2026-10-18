@@ -1,1 +1,1 @@
-Select title, author from books WHERE price > 20
+Select title, price from books WHERE price > 20

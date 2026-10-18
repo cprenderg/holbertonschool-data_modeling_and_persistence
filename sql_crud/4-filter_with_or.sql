@@ -1,1 +1,1 @@
-Select title, author from books WHERE genre = "Fantasy" AND price < 20
+Select title, genre from books WHERE genre = "Fantasy" AND price < 20
