@@ -1,0 +1,1 @@
+SELECT id, title, author, genre, price, stock, published_year from books;
