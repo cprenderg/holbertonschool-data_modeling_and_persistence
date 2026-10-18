@@ -1,4 +1,4 @@
-CREATE TABLE book (
+CREATE TABLE books (
     id INTEGER UNIQUE,
     title TEXT NOT NULL,
     author TEXT NOT NULL,
