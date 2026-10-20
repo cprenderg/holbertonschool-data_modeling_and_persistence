@@ -1,0 +1,6 @@
+SELECT courses.title AS course_title, COUNT(enrollments.course_id) AS enrollment_count
+FROM courses
+LEFT JOIN enrollments
+ON enrollments.course_id = courses.id
+GROUP BY courses.id, course_title
+ORDER BY enrollment_count DESC, course_title ASC
