@@ -1,0 +1,4 @@
+CREATE TABLE courses (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL
+)

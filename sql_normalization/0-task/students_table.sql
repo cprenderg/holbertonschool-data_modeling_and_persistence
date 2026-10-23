@@ -1,0 +1,3 @@
+CREATE TABLE students (
+    id INTEGER PRIMARY KEY
+)
